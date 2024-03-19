@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pearadox Public Scouting Data</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <h1 class="header">Pearadox Public Scouting Data</h1>
+        <img class="crescendo_logo" src="./img/Crescendo_FRC_Logo.png">
+        <a class="link" href="https://docs.google.com/spreadsheets/d/1ZaYQvbVfzautb7Hju5wBq4h_5AQQLaH8Y5nnW-gSs4A/edit#gid=1306959295" target="_blank">Proceed</a>
+    </div>
+    <style>
+        body {
+            background-color: #3d3c3c;
+        }
+
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            user-select: none;
+            -webkit-user-drag: none;
+            margin-top: 5rem;
+        }
+
+        .header {
+            display: flex;
+            margin: 2rem auto;
+            justify-content: center;
+            width: 40%;
+            color: white;
+            font-size: 3rem;
+            font-family: "Fugaz One", sans-serif;
+            font-variant-caps: all-small-caps;
+            background-color: #e2a215;
+            padding: 1rem;
+            border-radius: 15px;
+        }
+
+        .crescendo_logo {
+            display: flex;
+            margin: 0 auto;
+            width: 30%;
+        }
+
+        .link {
+            display: flex;
+            justify-content: center;
+            margin: 2rem auto;
+            width: 10%;
+            color: white;
+            text-decoration: none;
+            font-size: 2rem;
+            font-family: "Fugaz One", sans-serif;
+            background-color: #57bf32;
+            padding: 1rem;
+            border-radius: 15px;
+        }
+
+        @keyframes link {
+            from {
+                background-color: #57bf32;
+                outline: none;
+                color: white;
+            }
+            to {
+                background: none;
+                color: #57bf32;
+                outline: #57bf32 2px solid;
+            }
+        }
+
+        .link:hover {
+            animation: link 1s linear;
+            background: none;
+            color: #57bf32;
+            outline: #57bf32 2px solid;
+        }
+
+        
+    </style>
+</body>
+</html>
