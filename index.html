@@ -32,6 +32,7 @@
             display: flex;
             margin: 2rem auto;
             justify-content: center;
+            text-align: center;
             width: 40%;
             color: white;
             font-size: 3rem;
@@ -51,6 +52,7 @@
         .link {
             display: flex;
             justify-content: center;
+            text-align: center;
             margin: 2rem auto;
             width: 10%;
             color: white;
@@ -71,7 +73,7 @@
             to {
                 background: none;
                 color: #57bf32;
-                outline: #57bf32 2px solid;
+                border: #57bf32 2px solid;
             }
         }
 
@@ -79,9 +81,31 @@
             animation: link 1s linear;
             background: none;
             color: #57bf32;
-            outline: #57bf32 2px solid;
+            border: #57bf32 2px solid;
         }
 
+        @media only screen and (max-width: 1000px) {
+            .header {
+                width: 90%;
+            }
+            .crescendo_logo {
+                width: 70%;
+            }
+            .link {
+                width: 30%;
+            }
+        }
+        @media only screen and (max-width: 300px) {
+            .header {
+                width: 80%;
+            }
+            .crescendo_logo {
+                width: 70%;
+            }
+            .link {
+                width: 50%;
+            }
+        }
         
     </style>
 </body>
