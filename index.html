@@ -10,9 +10,9 @@
 </head>
 <body>
     <div class="wrapper">
-        <h1 class="header">Pearadox Public Scouting Data</h1>
+        <h1 class="header">Pearadox Public Scouting Data Apollo Division</h1>
         <img class="crescendo_logo" src="./img/Crescendo_FRC_Logo.png">
-        <a class="link" href="https://docs.google.com/spreadsheets/d/1qdRCc383xj3UrJ64F1_yS885x8apz53d7WpDXzdB-C0/edit?usp=sharing" target="_blank">Proceed</a>
+        <a class="link" href="https://docs.google.com/spreadsheets/d/1v_FvusPkKKu1lesgni3EVajVoDAC5QiseGVVDAAcz5M/edit?usp=sharing" target="_blank">Proceed</a>
     </div>
     <style>
         body {
@@ -50,6 +50,7 @@
         }
 
         .link {
+            transition: 1s;
             display: flex;
             justify-content: center;
             text-align: center;
@@ -64,21 +65,8 @@
             border-radius: 15px;
         }
 
-        @keyframes link {
-            from {
-                background-color: #57bf32;
-                outline: none;
-                color: white;
-            }
-            to {
-                background: none;
-                color: #57bf32;
-                border: #57bf32 2px solid;
-            }
-        }
-
         .link:hover {
-            animation: link 1s linear;
+            transition: 1s;
             background: none;
             color: #57bf32;
             border: #57bf32 2px solid;
